@@ -1,0 +1,18 @@
+
+$BASE=localhost:3000
+
+
+
+POST $BASE/users HTTP/1.1
+
+Content-Type: application/json
+User-Agent: insomnia/10.2.0
+Host: localhost:3000
+Content-Length: 62
+
+{
+	"name":"mopoy",
+	"phoneNumber":"+989904671504",
+	"age":22
+}
+
